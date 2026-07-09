@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Hồ Hoàng Nam</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #e9e9e9;
+      color: #111;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 11.2pt;
+      line-height: 1.22;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 24px auto;
+      padding: 16mm 18mm;
+      background: #fff;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .name {
+      font-size: 22pt;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .role {
+      font-size: 12pt;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      margin-bottom: 6px;
+    }
+
+    .contact {
+      font-size: 10.6pt;
+      line-height: 1.35;
+    }
+
+    .section {
+      margin-top: 10px;
+    }
+
+    .section-title {
+      font-size: 12.5pt;
+      font-weight: bold;
+      border-bottom: 1.4px solid #111;
+      margin-bottom: 4px;
+      padding-bottom: 1px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      font-weight: bold;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+
+    .entry-title {
+      flex: 1;
+    }
+
+    .entry-date {
+      white-space: nowrap;
+      text-align: right;
+      font-weight: normal;
+    }
+
+    .subline {
+      font-style: italic;
+      margin-bottom: 2px;
+    }
+
+    p {
+      margin: 0 0 4px;
+    }
+
+    ul {
+      margin: 2px 0 0 18px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 2.5px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 22px;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 78px 1fr;
+      row-gap: 1px;
+    }
+
+    .label {
+      font-weight: bold;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        margin: 0;
+        box-shadow: none;
+        width: 210mm;
+        min-height: 297mm;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <div class="name">Hồ Hoàng Nam</div>
+      <div class="role">IT Help Desk</div>
+      <div class="contact">
+        Quận 12, TP. Hồ Chí Minh | 0985 490 143 | hnam0210@gmail.com | Facebook: Hoàng Nam
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-title">Profile</div>
+      <div class="info-grid">
+        <div class="label">Name</div><div>Hồ Hoàng Nam</div>
+        <div class="label">Birthday</div><div>09/10/2002</div>
+        <div class="label">National</div><div>Việt Nam</div>
+        <div class="label">Position</div><div>IT Help Desk</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Professional Summary</div>
+      <p>
+        IT Helpdesk / IT Support có kinh nghiệm hỗ trợ người dùng và xử lý hệ thống CNTT trong môi trường doanh nghiệp. Có kinh nghiệm xử lý sự cố phần cứng, phần mềm, mạng LAN/Wi-Fi, Microsoft 365, Active Directory và hỗ trợ onsite. Định hướng phát triển theo System Administration và Network Infrastructure.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Experience</div>
+      <div class="entry-header">
+        <div class="entry-title">Công ty TNHH MTV An Thuận Yên</div>
+        <div class="entry-date">2022 – 2026</div>
+      </div>
+      <div class="subline">IT Help Desk / IT Support</div>
+      <ul>
+        <li>Xử lý trung bình 30–40 ticket IT/ngày, duy trì SLA &gt;95%.</li>
+        <li>Hỗ trợ người dùng về Windows, Microsoft 365, Outlook, máy in và các ứng dụng nội bộ.</li>
+        <li>Quản trị tài khoản Active Directory, phân quyền và reset password cho user.</li>
+        <li>Quản lý mail Microsoft 365 và troubleshoot Outlook.</li>
+        <li>Setup, cấu hình và bảo trì PC/Laptop, thiết bị ngoại vi, máy in văn phòng.</li>
+        <li>Hỗ trợ kiểm tra, xử lý sự cố mạng LAN/Wi-Fi, router, switch và access point.</li>
+        <li>Phối hợp triển khai hệ thống camera và thiết bị CNTT phục vụ vận hành doanh nghiệp.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Skills</div>
+      <div class="two-col">
+        <ul>
+          <li>IT Helpdesk / IT Support</li>
+          <li>Windows troubleshooting</li>
+          <li>Microsoft 365, Outlook</li>
+          <li>Active Directory</li>
+          <li>Printer, PC/Laptop setup</li>
+        </ul>
+        <ul>
+          <li>LAN/Wi-Fi troubleshooting</li>
+          <li>Router, switch, access point</li>
+          <li>Camera system support</li>
+          <li>End-user support</li>
+          <li>Teamwork and communication</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Education</div>
+      <div class="entry-header">
+        <div class="entry-title">Trường Đại học Ngoại ngữ - Tin học TP.HCM</div>
+        <div class="entry-date">10/2020 – 06/2021</div>
+      </div>
+      <p>Hiện đang bảo lưu kết quả.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Certifications</div>
+      <div class="entry-header">
+        <div class="entry-title">Trung tâm đào tạo quản trị và an ninh mạng Athena</div>
+        <div class="entry-date"></div>
+      </div>
+      <ul>
+        <li>Quản trị mạng cơ bản – ACBN</li>
+        <li>Cisco CCNA 200-301 (Đang học)</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Languages</div>
+      <ul>
+        <li>Tiếng Anh cơ bản</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Reference</div>
+      <p><strong>Phạm Mai Tứ</strong> – Trưởng phòng IT</p>
+      <p>Phone: 0909 794 353</p>
+    </section>
+  </main>
+</body>
+</html>
